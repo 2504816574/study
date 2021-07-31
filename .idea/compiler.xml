@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JUC" />
+        <module name="designPattern" />
         <module name="redis" />
         <module name="kafka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="designPattern" target="8" />
       <module name="JUC" target="8" />
       <module name="kafka" target="1.8" />
       <module name="redis" target="8" />
