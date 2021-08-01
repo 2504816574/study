@@ -1,7 +1,7 @@
 package com.ashen.design.principle.dependenceinversion;
 
 /**
- * @ClassName ICourse
+ * @ClassName
  * @Author 董升
  * @Date 2021/7/31
  * @Version V1.0
@@ -11,6 +11,6 @@ public class JavaCourse implements ICourse {
 
     @Override
     public void studyCourse() {
-        System.out.println("student在学习Java课程");
+        System.out.println("studnt在学习Java课程");
     }
 }
