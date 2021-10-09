@@ -1,0 +1,27 @@
+# 应用名称
+spring:
+  application:
+    name: MyBatis
+
+  datasource:
+    db01:
+      druid:
+        jdbc-url: jdbc:mysql://192.168.10.101:3306/MyBatis?serverTimezone=CTT&useUnicode=true&characterEncoding=utf8
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password: root
+    db02:
+      druid:
+        jdbc-url: jdbc:mysql://192.168.10.102:3306/MyBatis?serverTimezone=CTT&useUnicode=true&characterEncoding=utf8
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password: root
+
+  #下面这些内容是为了让MyBatis映射
+  #指定Mybatis的Mapper文件
+mybatis:
+  mapper-locations: classpath:com/ashen/mybatis/mapper/**/*.xml
+  #指定Mybatis的实体目录
+  type-aliases-package: com.ashen.mybatis.mybatis.entity
+
+
