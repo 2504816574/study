@@ -23,7 +23,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @GetMapping(value = "/user")
+    @GetMapping(value = "/user01")
     public List<User> getAllUser() {
         List<User> allUser = userService.getAllUser();
         System.out.println(Arrays.toString(allUser.toArray()));
@@ -33,6 +33,12 @@ public class UserController {
     @GetMapping(value = "/user02")
     public List<User> getAllUser02() {
         List<User> allUser = userService.getAllUser02();
+        System.out.println(Arrays.toString(allUser.toArray()));
+        return allUser;
+    }
+    @GetMapping(value = "/user03")
+    public List<User> getAllUser03() {
+        List<User> allUser = userService.getAllUser03();
         System.out.println(Arrays.toString(allUser.toArray()));
         return allUser;
     }

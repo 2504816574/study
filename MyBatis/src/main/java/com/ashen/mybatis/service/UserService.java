@@ -24,6 +24,13 @@ public interface UserService {
      * @return 查询结果
      */
     List<User> getAllUser02();
+    /**
+     * 查询全部
+     *
+     * @return 查询结果
+     */
+    List<User> getAllUser03();
+
 
 
 }
