@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/JUC/pom.xml" />
         <option value="$PROJECT_DIR$/designPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis/pom.xml" />
       </list>
     </option>
   </component>
