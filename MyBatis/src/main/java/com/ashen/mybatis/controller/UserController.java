@@ -1,12 +1,10 @@
 package com.ashen.mybatis.controller;
 
 
-import com.ashen.mybatis.entiy.User;
+import com.ashen.mybatis.entity.User;
 import com.ashen.mybatis.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Arrays;

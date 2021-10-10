@@ -1,6 +1,6 @@
 package com.ashen.mybatis.mapper.db02;
 
-import com.ashen.mybatis.entiy.User;
+import com.ashen.mybatis.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

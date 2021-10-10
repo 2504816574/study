@@ -1,7 +1,7 @@
 package com.ashen.mybatis.service.impl;
 
 import com.ashen.mybatis.dao.UserJdbcService;
-import com.ashen.mybatis.entiy.User;
+import com.ashen.mybatis.entity.User;
 import com.ashen.mybatis.mapper.db01.User01Mapper;
 import com.ashen.mybatis.mapper.db02.User02Mapper;
 import com.ashen.mybatis.service.UserService;

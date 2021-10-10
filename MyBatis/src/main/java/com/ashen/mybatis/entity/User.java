@@ -1,4 +1,4 @@
-package com.ashen.mybatis.entiy;
+package com.ashen.mybatis.entity;
 
 import lombok.Data;
 

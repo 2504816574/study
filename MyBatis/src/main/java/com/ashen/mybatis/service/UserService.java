@@ -1,6 +1,6 @@
 package com.ashen.mybatis.service;
 
-import com.ashen.mybatis.entiy.User;
+import com.ashen.mybatis.entity.User;
 
 import java.util.List;
 
