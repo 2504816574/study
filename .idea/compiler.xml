@@ -10,6 +10,7 @@
         <module name="JUC" />
         <module name="designPattern" />
         <module name="MyBatis" />
+        <module name="SpringBoot-HelloWorld" />
         <module name="redis" />
         <module name="kafka" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="kafka" target="1.8" />
       <module name="MyBatis" target="1.8" />
       <module name="redis" target="8" />
+      <module name="SpringBoot-HelloWorld" target="1.8" />
       <module name="zookeeper" target="8" />
     </bytecodeTargetLevel>
   </component>
