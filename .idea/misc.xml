@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/designPattern/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot/SpringBoot-HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro/shiro-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/shiro/shiro-helloworld/pom.xml" />
       </list>
     </option>
   </component>
