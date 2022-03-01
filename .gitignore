@@ -1,2 +1,7 @@
 /**/*.iml
 /.idea/
+/MyBatis/target/
+/JUC/target/
+/designPattern/target/
+/redis/target/
+/SpringBoot-HelloWorld/target/
