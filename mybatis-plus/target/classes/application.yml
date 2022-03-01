@@ -1,0 +1,18 @@
+butterflytri:
+  databaseurl-port: 124.222.149.83:3306 # 数据库端口
+  database-name: mybatis-plus # 数据库名
+server:
+  port: 8080 # 应用端口
+  servlet:
+    context-path: /mybatisplus # 应用映射
+spring:
+  application:
+    name: mybatis-plus # 应用名称
+  datasource:
+    url: jdbc:mysql://${butterflytri.databaseurl-port}/${butterflytri.database-name}?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+mybatis-plus: # mybatis-plus配置
+  mapper-locations: classpath:com/example/mybatisplus/mapper/*Mapper.xml # mapper映射包扫描
+  type-aliases-package: com.example.mybatisplus.entity # entity别名
