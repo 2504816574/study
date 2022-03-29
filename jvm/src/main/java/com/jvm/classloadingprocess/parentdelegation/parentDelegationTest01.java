@@ -1,11 +1,11 @@
-package com.jvm.classloadingprocess;
+package com.jvm.classloadingprocess.parentdelegation;
 
 /**
  * @author sdong
  * @description TODO
  * @date 2022/3/2 23:18
  */
-public class ClassInitTest04 {
+public class parentDelegationTest01 {
 
     public static void main(String[] args) {
         Runnable runnable = () -> {

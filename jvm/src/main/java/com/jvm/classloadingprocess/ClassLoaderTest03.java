@@ -1,10 +1,6 @@
 package com.jvm.classloadingprocess;
 
-import com.sun.net.ssl.internal.ssl.Provider;
-import java.net.URL;
-import java.sql.DriverManager;
-import sun.misc.Launcher;
-import sun.security.ec.CurveDB;
+
 
 /**
  * 获取ClassLoader的途径

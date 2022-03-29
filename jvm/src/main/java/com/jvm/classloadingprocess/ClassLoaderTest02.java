@@ -3,7 +3,7 @@ package com.jvm.classloadingprocess;
 import com.sun.net.ssl.internal.ssl.Provider;
 import java.net.URL;
 import sun.misc.Launcher;
-import sun.security.ec.CurveDB;
+
 
 /**
  * @author sdong
@@ -40,7 +40,7 @@ public class ClassLoaderTest02 {
             System.out.println(path);
 
         }
-        ClassLoader classLoader1 = CurveDB.class.getClassLoader();
-        System.out.println(classLoader1);
+        //ClassLoader classLoader1 = CurveDB.class.getClassLoader();
+        //System.out.println(classLoader1);
     }
 }
